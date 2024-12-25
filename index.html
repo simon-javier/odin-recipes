@@ -3,37 +3,53 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Recipes | HTML Basics</title>
+
 </head>
 
 <body>
-    <h1>Odin Recipes</h1>
-    <ul>
-        <h3>
-            <li><a href="./recipes/adobo.html">Famous Chicken Adobo</a></li>
-        </h3>
-        <img src="https://www.allrecipes.com/thmb/Pq3eNjlUA9XPQlR_TXRZEEpl1sY=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/128699-famous-chicken-adobo-DDMFS-4x3-2da8cfc2ccc44ddfb1d4cb1bf1a28e48.jpg"
-            alt="an image of adobo" width="25%">
-        <h3>
-            <li><a href="./recipes/barbecue.html">Faye's Pulled Barbecue Pork</a></li>
-        </h3>
-        <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F372310.jpg&q=60&c=sc&poi=auto&orient=true&h=512"
-            alt="an image of bbq sandwich with vegetables" width="25%">
-        <h3>
-            <li><a href="./recipes/hotdog.html">Hotdog Roll-Ups</a></li>
-        </h3>
-        <img src="https://www.allrecipes.com/thmb/Am630dWY-0P5ema-88ecVxmxAz0=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/8678872-Hot-Dog-Roll-Ups-ddmfs-3x4-039-989de4fe4d4e41d0a9440d94010e536a.jpg"
-            alt="Hotdog Roll-Ups on a platter next to sauce in a bowl" width="25%">
-        <h3>
-            <li><a href="./recipes/sinigang.html">Pork Sinigang</a></li>
-        </h3>
-        <img src="https://www.allrecipes.com/thmb/_sB0w03nZIDO8dRBskzg65ZZjcw=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/204958-pork-sinigang-mfs-4-c404775871964fda88d9416cf92cfe8e.jpg"
-            alt="Overhead angle, looking down at a bowl of pork Sinigang." width="25%">
-        <h3>
-            <li><a href="./recipes/fried-chicken.html">Crispy Fried Chicken</a></li>
-        </h3>
-        <img src="https://www.allrecipes.com/thmb/0u4sQA9vAbrdkviiVx5avYNq5f8=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/8805-CrispyFriedChicken-mfs-3x2-072-d55b8406d4ae45709fcdeb58a04143c2.jpg"
-            alt="high angle looking at a plate of golden brown, crispy fried chicken" width="25%">
+
+    <div class="title">
+        <h1>Odin Recipes</h1>
+    </div>
+    <ul class="main-list">
+        <div class="main-recipe">
+            <h3>
+                <li><a href="./recipes/adobo.html">Famous Chicken Adobo</a></li>
+            </h3>
+            <img src="https://www.allrecipes.com/thmb/Pq3eNjlUA9XPQlR_TXRZEEpl1sY=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/128699-famous-chicken-adobo-DDMFS-4x3-2da8cfc2ccc44ddfb1d4cb1bf1a28e48.jpg"
+                class="recipe-img" alt="an image of adobo" width="25%">
+        </div>
+        <div class="main-recipe">
+            <h3>
+                <li><a href="./recipes/barbecue.html">Faye's Pulled Barbecue Pork</a></li>
+            </h3>
+            <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F372310.jpg&q=60&c=sc&poi=auto&orient=true&h=512"
+                class="recipe-img" alt="an image of bbq sandwich with vegetables" width="25%">
+        </div>
+        <div class="main-recipe">
+            <h3>
+                <li><a href="./recipes/hotdog.html">Hotdog Roll-Ups</a></li>
+            </h3>
+            <img src="https://www.allrecipes.com/thmb/Am630dWY-0P5ema-88ecVxmxAz0=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/8678872-Hot-Dog-Roll-Ups-ddmfs-3x4-039-989de4fe4d4e41d0a9440d94010e536a.jpg"
+                class="recipe-img" alt="Hotdog Roll-Ups on a platter next to sauce in a bowl" width="25%">
+        </div>
+        <div class="main-recipe">
+            <h3>
+                <li><a href="./recipes/sinigang.html">Pork Sinigang</a></li>
+            </h3>
+            <img src="https://www.allrecipes.com/thmb/_sB0w03nZIDO8dRBskzg65ZZjcw=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/204958-pork-sinigang-mfs-4-c404775871964fda88d9416cf92cfe8e.jpg"
+                class="recipe-img" alt="Overhead angle, looking down at a bowl of pork Sinigang." width="25%">
+        </div>
+        <div class="main-recipe">
+            <h3>
+                <li><a href="./recipes/fried-chicken.html">Crispy Fried Chicken</a></li>
+            </h3>
+            <img src="https://www.allrecipes.com/thmb/0u4sQA9vAbrdkviiVx5avYNq5f8=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/8805-CrispyFriedChicken-mfs-3x2-072-d55b8406d4ae45709fcdeb58a04143c2.jpg"
+                class="recipe-img" alt="high angle looking at a plate of golden brown, crispy fried chicken"
+                width="25%">
+        </div>
     </ul>
     <script src="js/browser-sync.js" id="__bs_script__"></script>
 </body>
