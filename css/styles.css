@@ -1,6 +1,13 @@
 * {
     font-family: Garamond;
+<<<<<<< Updated upstream
+=======
+    box-sizing: inherit;
+}
+>>>>>>> Stashed changes
 
+html {
+    box-sizing: border-box;
 }
 
 body {
@@ -36,10 +43,11 @@ img {
 
 .recipe-img,
 .main-img {
-    width: 50%;
+    width: 75%;
     border: #929989 solid 2px;
 }
 
+<<<<<<< Updated upstream
 .main-img {
     width: 75%;
 }
@@ -79,16 +87,63 @@ h2 {
     display: flex;
     justify-content: center;
 }
+=======
+>>>>>>> Stashed changes
 
-.main-recipe {
-    width: 75%;
+
+.hero {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.food-description {
+    color: #1a659e;
+    font-size: 1.5em;
+    width: 75%;
+}
+
+
+.list-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.list-item img {
+    width: 50%;
+    border: #929989 solid 2px;
+    margin-top: 0.5em;
+}
+
+h2 {
+    color: #1a659e;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.main-recipe div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.main-recipe {
+    display: flex;
+    width: 75%;
     align-items: center;
     background-color: hsl(86, 21%, 85%);
     padding: 1em;
     margin-bottom: 1em;
     border-radius: 10px;
+    gap: 1em;
 }
 
 h3 {
