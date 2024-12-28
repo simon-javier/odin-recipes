@@ -1,10 +1,7 @@
 * {
     font-family: Garamond;
-<<<<<<< Updated upstream
-=======
     box-sizing: inherit;
 }
->>>>>>> Stashed changes
 
 html {
     box-sizing: border-box;
@@ -47,16 +44,15 @@ img {
     border: #929989 solid 2px;
 }
 
-<<<<<<< Updated upstream
 .main-img {
-    width: 75%;
+    width: 100%;
 }
 
-.hero {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.wrapper .hero {
+    width: 75%;
     text-align: center;
+    gap: 2em;
+    margin: 0 auto;
 }
 
 .food-description {
@@ -66,10 +62,10 @@ img {
 }
 
 
-.list-item {
-    display: flex;
-    flex-direction: column;
+.main.list-item {
+    display: block;
     margin-bottom: 1em;
+    width: 100%;
 }
 
 .list-item img {
@@ -87,44 +83,12 @@ h2 {
     display: flex;
     justify-content: center;
 }
-=======
->>>>>>> Stashed changes
-
-
-.hero {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.food-description {
-    color: #1a659e;
-    font-size: 1.5em;
-    width: 75%;
-}
 
 
 .list-item {
     display: flex;
     flex-direction: column;
     margin-bottom: 1em;
-}
-
-.list-item img {
-    width: 50%;
-    border: #929989 solid 2px;
-    margin-top: 0.5em;
-}
-
-h2 {
-    color: #1a659e;
-}
-
-
-.container {
-    display: flex;
-    justify-content: center;
 }
 
 .main-recipe div {
@@ -132,6 +96,12 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.main-recipe .main-description {
+    display: block;
+    width: 75%;
+    margin: 0 auto;
 }
 
 
@@ -143,10 +113,14 @@ h2 {
     padding: 1em;
     margin-bottom: 1em;
     border-radius: 10px;
-    gap: 1em;
+}
+
+.main-recipe.wrapper {
+    display: block;
+    width: 100%;
 }
 
 h3 {
-    margin: 0;
+    margin: 0 auto;
     margin-bottom: 0.5em;
 }
